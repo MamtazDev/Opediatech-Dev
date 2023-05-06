@@ -1,5 +1,22 @@
-@include('layouts.frontend.inc.header')
+@include('layouts.frontend.inc.header',[$seo_title=SeoSettings()->home_page_seo_title, $seo_description=SeoSettings()->home_page_seo_description, $seo_keywords=SeoSettings()->home_page_seo_keywords ])
 
+<style>
+    .mission_section{
+        padding: 120px !important;
+    }
+
+    .logoLiderDiv{
+        height: auto;
+    }
+
+    .affiliates__tab{
+        margin-top: 20px;
+    }
+
+    .affiliates__tab .images{
+        height: auto !important;
+    }
+</style>
     <!-- banner and hero section start here -->
     <div class="banner__section">
 
