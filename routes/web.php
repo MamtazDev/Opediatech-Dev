@@ -40,7 +40,7 @@ Route::get('/clear-cache', function() {
 
 
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/dashboard', [HomeController::class, 'index'])->name('home');
 

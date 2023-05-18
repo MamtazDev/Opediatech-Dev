@@ -20,7 +20,7 @@
     <!-- banner and hero section start here -->
     <div class="banner__section">
 
-        @include('layouts.frontend.inc.menu')                                   
+        @include('layouts.frontend.inc.menu')
 
         <!-- hero section start here -->
         <div class="hero__section">
@@ -48,7 +48,7 @@
         <!-- hero section end here -->
     </div>
     <!-- banner and hero section -->
-    
+
     <!--float section start here-->
     <div class="float__section">
         <a href="https://api.whatsapp.com/send?phone=01950-410100" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
@@ -72,7 +72,7 @@
 
     <!-- mission section start here -->
     <div class="mission_section">
-        <div class="mission_area">
+        <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6">
                     <div class="mission_content_section">
@@ -122,22 +122,22 @@
     </div>
     <!-- service work section end here -->
 
- 
+
     <!-- facilities section start here -->
     <div class="swiper myTeamSwiper" style="margin-bottom: -150px">
         <div class="swiper-wrapper align-items-center">
-          <div class="swiper-slide project_item"> 
+          <div class="swiper-slide project_item">
             <a href="https://www.behance.net/opediastudio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_one.png" alt="img width="100%" height="100%"">
-                <div class="project_overlay"> 
+                <div class="project_overlay">
                     <h4 class="project-title">Brands.io- SaaS Landing Page</h4>
                 </div>
             </a>
           </div>
-          <div class="swiper-slide project_item"> 
+          <div class="swiper-slide project_item">
             <a href="https://dribbble.com/opedia_studio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_two.png" alt="img width="100%" height="100%"">
-                <div class="project_overlay"> 
+                <div class="project_overlay">
                     <h4 class="project-title">Payment Getway Landing Page</h4>
                 </div>
             </a>
@@ -145,23 +145,23 @@
           <div class="swiper-slide project_item">
             <a href="https://www.behance.net/opediastudio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_three.png" alt="img width="100%" height="100%"">
-                <div class="project_overlay"> 
+                <div class="project_overlay">
                     <h4 class="project-title">Cyber security landing page</h4>
                 </div>
             </a>
           </div>
-          <div class="swiper-slide project_item"> 
+          <div class="swiper-slide project_item">
             <a href="https://dribbble.com/opedia_studio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_four.png" alt="img width="100%" height="100%"">
-                <div class="project_overlay"> 
+                <div class="project_overlay">
                     <h4 class="project-title">Digital NFTs Landing Page</h4>
                 </div>
             </a>
           </div>
-          <div class="swiper-slide project_item"> 
+          <div class="swiper-slide project_item">
             <a href="https://www.behance.net/opediastudio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_five.png" alt="img width="100%" height="100%"">
-                <div class="project_overlay"> 
+                <div class="project_overlay">
                     <h4 class="project-title">Online Course Landing Page</h4>
                 </div>
             </a>
@@ -169,15 +169,15 @@
           <div class="swiper-slide project_item">
             <a href="https://dribbble.com/opedia_studio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_six.png" alt="img width="100%" height="100%"">
-                <div class="project_overlay"> 
+                <div class="project_overlay">
                     <h4 class="project-title">Digital Crypto Bitcoin Landing Page</h4>
                 </div>
             </a>
           </div>
-          <div class="swiper-slide project_item"> 
+          <div class="swiper-slide project_item">
             <a href="https://www.behance.net/opediastudio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_seven.png" alt="img width="100%" height="100%"">
-                <div class="project_overlay"> 
+                <div class="project_overlay">
                     <h4 class="project-title">IT Solution Company Landing Page</h4>
                 </div>
             </a>
@@ -185,15 +185,15 @@
           <div class="swiper-slide project_item">
             <a href="https://dribbble.com/opedia_studio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_eight.png" alt="img width="100%" height="100%"">
-                <div class="project_overlay"> 
+                <div class="project_overlay">
                     <h4 class="project-title">Medical Find Your Doctor Landing Page -D</h4>
                 </div>
             </a>
           </div>
-          <div class="swiper-slide project_item"> 
+          <div class="swiper-slide project_item">
             <a href="https://www.behance.net/opediastudio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_nine.png" alt="img width="100%" height="100%"">
-                <div class="project_overlay"> 
+                <div class="project_overlay">
                     <h4 class="project-title">Medical Find Your Doctor Landing Page</h4>
                 </div>
             </a>
@@ -201,14 +201,14 @@
           <div class="swiper-slide project_item">
             <a href="https://dribbble.com/opedia_studio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_three.png" alt="img width="100%" height="100%"">
-                <div class="project_overlay"> 
+                <div class="project_overlay">
                     <h4 class="project-title">Cyber Security Landing Page</h4>
                 </div>
             </a>
           </div>
         </div>
     </div>
-   
+
 
     {{-- Techonology section  --}}
     <div class="techonology_section">
@@ -224,7 +224,7 @@
                             <img width="100%" height="100%" src="{{ asset('frontend') }}/assets/images/tech/django.png" alt="">
                         </div>
                       </div>
-                      <div class="swiper-slide"> 
+                      <div class="swiper-slide">
                         <div class="logoLiderDiv">
                             <img width="100%" height="100%" src="{{ asset('frontend') }}/assets/images/tech/dotNet.png" alt="">
                         </div>
@@ -405,10 +405,10 @@
         </div>
     </div>
     <!-- client section end here -->
-    
-    
-    
-    
+
+
+
+
     <!--client tab section start here-->
     <div class="client__tab__section">
         <div class="container">
@@ -425,7 +425,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>

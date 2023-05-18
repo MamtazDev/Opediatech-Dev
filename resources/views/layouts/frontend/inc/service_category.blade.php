@@ -8,9 +8,9 @@
         padding-top: 17px;
     }
 
-    .software__service__swiper .gallery_item{
+    /* .software__service__swiper .gallery_item{
         padding: 0 !important;
-    }
+    } */
     .software__service__swiper .event_title{
         padding-bottom: 14px !important;
     }
@@ -32,7 +32,7 @@
         <div class="service_header">
             <div class="service_header_left">
                 <h2><span>Creating Brand Value
-                    for <br> Business entities  </span> 
+                    for <br> Business entities  </span>
                 </h2>
             </div>
             <div class="service_header_right">
@@ -64,8 +64,8 @@
                                 <img style="width: 100% !important;" src="{{ asset($category->image) }}" alt="image">
                                 <h3 class="event_title">{{$category->category_fname}} {{ $category->category_lname }}</h3>
                             </div>
-                        </a> 
-                    </div> 
+                        </a>
+                    </div>
                     @empty
                         <span style="font-size:20px; color:red">Service Not Found</span>
                     @endforelse
