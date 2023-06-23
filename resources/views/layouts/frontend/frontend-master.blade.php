@@ -134,7 +134,7 @@
                 </div>
             </a>
           </div>
-          <div class="swiper-slide project_item">
+          <div class="swiper-slide project_item mb-3">
             <a href="https://dribbble.com/opedia_studio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_two.png" alt="img width="100%" height="100%"">
                 <div class="project_overlay">
@@ -142,7 +142,7 @@
                 </div>
             </a>
           </div>
-          <div class="swiper-slide project_item">
+          <div class="swiper-slide project_item mb-3">
             <a href="https://www.behance.net/opediastudio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_three.png" alt="img width="100%" height="100%"">
                 <div class="project_overlay">
@@ -150,7 +150,7 @@
                 </div>
             </a>
           </div>
-          <div class="swiper-slide project_item">
+          <div class="swiper-slide project_item mb-3">
             <a href="https://dribbble.com/opedia_studio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_four.png" alt="img width="100%" height="100%"">
                 <div class="project_overlay">
@@ -158,7 +158,7 @@
                 </div>
             </a>
           </div>
-          <div class="swiper-slide project_item">
+          <div class="swiper-slide project_item mb-3">
             <a href="https://www.behance.net/opediastudio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_five.png" alt="img width="100%" height="100%"">
                 <div class="project_overlay">
@@ -166,7 +166,7 @@
                 </div>
             </a>
           </div>
-          <div class="swiper-slide project_item">
+          <div class="swiper-slide project_item mb-3">
             <a href="https://dribbble.com/opedia_studio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_six.png" alt="img width="100%" height="100%"">
                 <div class="project_overlay">
@@ -174,7 +174,7 @@
                 </div>
             </a>
           </div>
-          <div class="swiper-slide project_item">
+          <div class="swiper-slide project_item mb-3">
             <a href="https://www.behance.net/opediastudio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_seven.png" alt="img width="100%" height="100%"">
                 <div class="project_overlay">
@@ -182,7 +182,7 @@
                 </div>
             </a>
           </div>
-          <div class="swiper-slide project_item">
+          <div class="swiper-slide project_item mb-3">
             <a href="https://dribbble.com/opedia_studio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_eight.png" alt="img width="100%" height="100%"">
                 <div class="project_overlay">
@@ -190,7 +190,7 @@
                 </div>
             </a>
           </div>
-          <div class="swiper-slide project_item">
+          <div class="swiper-slide project_item mb-3">
             <a href="https://www.behance.net/opediastudio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_nine.png" alt="img width="100%" height="100%"">
                 <div class="project_overlay">
@@ -198,7 +198,7 @@
                 </div>
             </a>
           </div>
-          <div class="swiper-slide project_item">
+          <div class="swiper-slide project_item mb-3">
             <a href="https://dribbble.com/opedia_studio" target="_blank">
                 <img width="100%" height="100%" width="100%" src="{{ asset('frontend') }}/assets/images/project/image_three.png" alt="img width="100%" height="100%"">
                 <div class="project_overlay">
@@ -211,7 +211,7 @@
 
 
     {{-- Techonology section  --}}
-    <div class="techonology_section">
+    <div class="techonology_section mt-5 mt-sm-0">
         <div class="container">
             <div class="techonology_inner">
                 <div class="title  text-center text-md-start">
@@ -222,11 +222,6 @@
                       <div class="swiper-slide">
                         <div class="logoLiderDiv">
                             <img width="100%" height="100%" src="{{ asset('frontend') }}/assets/images/tech/django.png" alt="">
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="logoLiderDiv">
-                            <img width="100%" height="100%" src="{{ asset('frontend') }}/assets/images/tech/dotNet.png" alt="">
                         </div>
                       </div>
                       <div class="swiper-slide">

@@ -51,6 +51,28 @@
     slidesPerView: 5,
     spaceBetween: 30,
     loop: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        1440: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+        },
+        992: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
+        575: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        0: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+    },
    });
 
   var swiper = new Swiper(".serviceSwiper", {

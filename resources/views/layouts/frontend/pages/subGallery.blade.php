@@ -1,17 +1,18 @@
 @include('layouts.frontend.inc.header',[
-    $seo_title=SeoSettings()->gallery_page_seo_title.' | '.$gallery->event_name, 
-    $seo_description=SeoSettings()->gallery_page_seo_description, 
-    $seo_keywords=SeoSettings()->gallery_page_seo_keywords 
+    $seo_title=SeoSettings()->gallery_page_seo_title.' | '.$gallery->event_name,
+    $seo_description=SeoSettings()->gallery_page_seo_description,
+    $seo_keywords=SeoSettings()->gallery_page_seo_keywords
 ])
 
 <style>
-    h3.event_title {
+     h3.event_title {
         font-size: 27px;
-        line-height: 34px;
-        background: linear-gradient(91.57deg, #0057FF 48.67%, #39C1DF 76.12%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        padding-top: 17px;
+    line-height: 27px;
+    background: linear-gradient(91.57deg, #0057FF 48.67%, #39C1DF 76.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 0;
+    margin: 0;
     }
 
     h1.event_title {
@@ -19,14 +20,6 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-
-    .software__service__swiper .gallery_item{
-        padding: 0 !important;
-    }
-    .software__service__swiper .event_title{
-        padding-bottom: 14px !important;
-    }
-    
 
     @media only screen and (max-width: 600px) {
         .gallery_item {
@@ -52,10 +45,10 @@
                 <div class="row align-items-center">
                     <div class="col-md-10 m-auto">
                         <div class="title">
-                            <h1 class="event_title">{{ $gallery->event_name }}</h1> 
+                            <h1 class="event_title">{{ $gallery->event_name }}</h1>
                             <span class="title__span" style="margin:25px 0 50px 0">{!! $gallery->event_desc !!}</span>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
@@ -69,43 +62,45 @@
                 <div class="row align-items-center">
                     <div class="col-md-10 m-auto">
                         <div class="title">
-                            <h1 class="event_title">Sub Gallery</h1> 
+                            <h1 class="event_title">Sub Gallery</h1>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
     </div> --}}
     <!-- hero section end here -->
- 
+
     <div class="container">
         <a class="gallery_back_btn" href="{{ route('galleryPage.index') }}">Back Gallery</a>
     </div>
 
     <!-- Service section start here -->
     <div class="service_section">
-        <div class="container"> 
+        <div class="container">
             <div class="service_inner">
                 <div class="container">
                     <div class="row">
                         @foreach ($subGalleries as $gallery)
-                        <div class="col-md-4">
+                        <div class="col-md-4 mb-4">
                             <a class="software__service__swiper" href="{{ route('galleryPage.details', $gallery->slug ) }}">
-                                <div class="service_item gallery_item">
-                                    <img style="width: 100% !important;" src="{{ asset($gallery->thumbnail_image) }}" alt="image">
-                                    <h3 class="event_title">{{  $gallery->title }}</h3>
-                                </div>
-                            </a> 
-                        </div> 
-                        @endforeach 
+                                <div class="card" >
+                                    <img src="{{ asset($gallery->thumbnail_image) }}" class="card-img-top" style="max-height: 270px" alt="{{$gallery->title }}">
+                                    <div class="card-body">
+                                        <h3 class="event_title">{{  $gallery->title }}</h3>
+                                    </div>
+                                  </div>
+                            </a>
+                        </div>
+                        @endforeach
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Service section end here --> 
+    <!-- Service section end here -->
 
 </div>
-     
+
 
 @include('layouts.frontend.inc.footer')
