@@ -124,7 +124,7 @@
 
 
     <!-- facilities section start here -->
-    <div class="swiper myTeamSwiper" style="margin-bottom: -150px">
+    {{-- <div class="swiper myTeamSwiper" style="margin-bottom: -150px">
         <div class="swiper-wrapper align-items-center">
           <div class="swiper-slide project_item">
             <a href="https://www.behance.net/opediastudio" target="_blank">
@@ -207,7 +207,55 @@
             </a>
           </div>
         </div>
-    </div>
+    </div> --}}
+
+    <!-- doubleSwiper section start here -->
+    <section class="swiper doubleSwiper">
+        <div class="swiper-wrapper">
+          <a href="https://www.behance.net/opediastudio" target="_blank" class="swiper-slide">
+            <img src="{{ asset('frontend') }}/assets/images/project/image_one.png" alt="img">
+            <p class="swiperContent">Brands.io- SaaS Landing Page</p>
+          </a>
+          <a href="https://dribbble.com/opedia_studio" target="_blank" class="swiper-slide">
+            <img src="{{ asset('frontend') }}/assets/images/project/image_two.png" alt="img">
+            <p class="swiperContent">Payment Getway Landing Page</p>
+          </a>
+          <a href="https://www.behance.net/opediastudio" target="_blank" class="swiper-slide">
+            <img src="{{ asset('frontend') }}/assets/images/project/image_three.png" alt="img">
+            <p class="swiperContent">Cyber security landing page</p>
+          </a>
+          <a href="https://dribbble.com/opedia_studio" target="_blank" class="swiper-slide">
+            <img src="{{ asset('frontend') }}/assets/images/project/image_four.png" alt="img">
+            <p class="swiperContent">Digital NFTs Landing Pag</p>
+          </a>
+          <a href="https://www.behance.net/opediastudio" target="_blank" class="swiper-slide">
+            <img src="{{ asset('frontend') }}/assets/images/project/image_five.png" alt="img">
+            <p class="swiperContent">Digital Crypto Bitcoin Landing Page</p>
+          </a>
+          <a href="https://dribbble.com/opedia_studio" target="_blank" class="swiper-slide">
+            <img src="{{ asset('frontend') }}/assets/images/project/image_six.png" alt="img">
+            <p class="swiperContent">IT Solution Company Landing Page</p>
+          </a>
+          <a href="https://www.behance.net/opediastudio" target="_blank" class="swiper-slide">
+            <img src="{{ asset('frontend') }}/assets/images/project/image_seven.png" alt="img">
+            <p class="swiperContent">It Solution Company Landing Page</p>
+          </a>
+          <a href="https://dribbble.com/opedia_studio" target="_blank" class="swiper-slide">
+            <img src="{{ asset('frontend') }}/assets/images/project/image_eight.png" alt="img">
+            <p class="swiperContent">Medical Find Your Doctor Landing Page</p>
+          </a>
+          <a href="https://www.behance.net/opediastudio" target="_blank" class="swiper-slide">
+            <img src="{{ asset('frontend') }}/assets/images/project/image_nine.png" alt="img">
+            <p class="swiperContent">Cyber Security Landing Page</p>
+          </a>
+          <a href="https://dribbble.com/opedia_studio" target="_blank" class="swiper-slide">
+            <img src="https://opediatech.com/frontend/assets/images/project/image_three.png" alt="">
+            <p class="swiperContent">Online Course Landing Page</p>
+          </a>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
 
 
     {{-- Techonology section  --}}

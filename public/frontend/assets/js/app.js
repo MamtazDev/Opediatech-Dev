@@ -9,28 +9,70 @@
 
 
     // our team members
-  var swiper = new Swiper(".myTeamSwiper", {
+//   var swiper = new Swiper(".myTeamSwiper", {
+//     slidesPerView: 4,
+//     grid: {
+//       rows: 2,
+//     },
+//     spaceBetween: 20,
+//     breakpoints: {
+//       1199: {
+//           slidesPerView: 4,
+//           spaceBetween: 20,
+//       },
+//       575: {
+//         slidesPerView: 2,
+//         spaceBetween: 20,
+//       },
+//       0: {
+//         slidesPerView: 1,
+//         spaceBetween: 20,
+//       },
+//     }
+//   });
+
+
+
+// doubleSwiper swiper js
+var swiper = new Swiper(".doubleSwiper", {
     slidesPerView: 4,
     grid: {
       rows: 2,
     },
-    spaceBetween: 20,
+    autoplay: true,
+    spaceBetween: 30,
+    // pagination: {
+    //   el: ".swiper-pagination",
+    //   clickable: true,
+    // },
+    loop: true,
     breakpoints: {
-      1199: {
+        0:{
+            slidesPerView: 1,
+            grid: {
+                rows: 2,
+              },
+        },
+        600: {
+          slidesPerView: 2,
+          grid: {
+            rows: 2,
+          },
+        },
+        991: {
+          slidesPerView: 3,
+          grid: {
+            rows: 2,
+          },
+        },
+        1199:{
           slidesPerView: 4,
-          spaceBetween: 20,
-      },
-      575: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      0: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      },
-    }
+          grid: {
+            rows: 2,
+          },
+        }
+      }
   });
-
 
 
     // owl carosel service work section

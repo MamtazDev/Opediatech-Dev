@@ -1,7 +1,7 @@
 <style>
     h3.event_title {
-        font-size: 27px;
-        line-height: 34px;
+        font-size: 42px;
+        line-height: 48px;
         background: linear-gradient(91.57deg, #0057FF 48.67%, #39C1DF 76.12%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
